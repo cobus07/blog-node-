@@ -1,0 +1,12 @@
+[Sun Jun 29 2014 16:52:06 GMT+0800 (中国标准时间)] /
+Error: no open connections
+    at Db._executeQueryCommand (E:\workplace\blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1802:21)
+    at Cursor.nextObject (E:\workplace\blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:729:13)
+    at Cursor.nextObject (E:\workplace\blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\scope.js:22:20)
+    at Collection.findOne (E:\workplace\blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\collection\query.js:145:10)
+    at E:\workplace\blog\node_modules\connect-mongo\lib\connect-mongo.js:214:18
+    at MongoStore._get_collection (E:\workplace\blog\node_modules\connect-mongo\lib\connect-mongo.js:148:21)
+    at MongoStore.get (E:\workplace\blog\node_modules\connect-mongo\lib\connect-mongo.js:213:10)
+    at Layer.session [as handle] (E:\workplace\blog\node_modules\express-session\index.js:215:11)
+    at trim_prefix (E:\workplace\blog\node_modules\express\lib\router\index.js:240:15)
+    at E:\workplace\blog\node_modules\express\lib\router\index.js:208:9
